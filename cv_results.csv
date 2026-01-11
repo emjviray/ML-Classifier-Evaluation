@@ -1,0 +1,13 @@
+Dataset,Classifier,BestParams,CV_Accuracy,CV_F1
+Heart,LR,"{'solver': 'lbfgs', 'penalty': 'l2', 'C': 0.1}",0.8428969948494567,0.8551304347826086
+Heart,DT,"{'min_samples_split': 5, 'min_samples_leaf': 1, 'max_depth': None}",0.9707345097837458,0.973522024769604
+Heart,RF,"{'n_estimators': 50, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'sqrt'}",0.9804782402405493,0.9812514072058778
+Heart,KNN,"{'weights': 'distance', 'p': 1, 'n_neighbors': 9}",0.9648751236187568,0.9655978855172922
+WineRed,LR,"{'solver': 'lbfgs', 'penalty': 'l2', 'C': 10}",0.8792995622263914,0.4153225524954997
+WineRed,DT,"{'min_samples_split': 2, 'min_samples_leaf': 1, 'max_depth': 3}",0.8649155722326455,0.3884911577501902
+WineRed,RF,"{'n_estimators': 200, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': 'sqrt'}",0.8799249530956846,0.3754860887313353
+WineRed,KNN,"{'weights': 'distance', 'p': 1, 'n_neighbors': 9}",0.8574108818011257,0.22618941430822617
+Bank,LR,"{'solver': 'lbfgs', 'penalty': 'l2', 'C': 0.1}",0.6351529958029974,0.13855424547652778
+Bank,DT,"{'min_samples_split': 2, 'min_samples_leaf': 1, 'max_depth': 3}",0.6150457055990116,0.10782584755180442
+Bank,RF,"{'n_estimators': 50, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': 'log2'}",0.4806694086546737,0.07544308344738174
+Bank,KNN,"{'weights': 'uniform', 'p': 2, 'n_neighbors': 9}",0.6350546028877108,0.14024742297155637

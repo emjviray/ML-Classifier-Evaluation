@@ -1,0 +1,6 @@
+Classifier,Adult-TestAcc_mean,Bank-TestAcc_mean,Heart-TestAcc_mean,WineRed-TestAcc_mean,Adult-TestF1_mean,Bank-TestF1_mean,Heart-TestF1_mean,WineRed-TestF1_mean
+DT,0.807,0.878,0.976,0.867,0.617,0.521,0.976,0.553
+KNN,0.767,0.892,0.727,0.861,0.399,0.54,0.724,0.357
+LR,0.842,0.898,0.824,0.873,0.65,0.512,0.835,0.352
+RF,0.847,0.903,0.992,0.912,0.67,0.565,0.992,0.606
+SVM,0.787,0.886,0.707,0.866,0.257,0.349,0.727,0.0
